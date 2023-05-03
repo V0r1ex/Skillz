@@ -109,3 +109,10 @@
         margin-left: auto;
     }
 }
+
+@media (max-width: 600px) { 
+    .footer__nav-container a, .footer__nav_name {
+        font-size: 24px;
+    }
+ }
+

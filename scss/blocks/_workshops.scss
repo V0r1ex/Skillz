@@ -52,3 +52,14 @@
     line-height: 27px;
     color: $pale-blue;
 }
+
+
+@media only screen and (max-device-width: 480px)  {
+    .slider-dot-control { 
+        gap: 50px !important;
+        label {
+            height: 50px !important;
+            width: 50px !important;
+        }
+    }
+}

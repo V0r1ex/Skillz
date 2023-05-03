@@ -1,3 +1,19 @@
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -100,6 +116,35 @@ p {
   font-size: 22px;
 }
 
+.scroll-btn {
+  position: fixed;
+  bottom: 76px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(87, 217, 166, 0.8);
+  color: #F6F6F8;
+  font-size: 20px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .header__top {
   height: 43px;
   background-color: #57D9A6;
@@ -240,6 +285,22 @@ p {
     display: block;
   }
 }
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .intro {
   padding-top: 144px;
   background-color: #23233B;
@@ -337,6 +398,22 @@ p {
     scale: 0.5;
   }
 }
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .feautures {
   padding-top: 144px;
   padding-bottom: 142px;
@@ -411,6 +488,22 @@ p {
   color: #B2B2BF;
 }
 
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .contact {
   background-color: #1C1C33;
   color: #F6F6F8;
@@ -454,6 +547,22 @@ p {
     position: static;
     padding-right: 0;
     padding-left: 0;
+  }
+}
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 .workshops {
@@ -507,6 +616,31 @@ p {
   color: #4E4E65;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .slider-dot-control {
+    gap: 50px !important;
+  }
+  .slider-dot-control label {
+    height: 50px !important;
+    width: 50px !important;
+  }
+}
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .about {
   background-color: #1C1C33;
   color: #F6F6F8;
@@ -586,6 +720,22 @@ p {
 @media (max-width: 520px) {
   .about__decor-container {
     scale: 0.6;
+  }
+}
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 #slider_bl .wrapper {
@@ -691,6 +841,22 @@ p {
   margin-bottom: 40px;
 }
 
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .articles {
   padding-top: 144px;
   padding-bottom: 280px;
@@ -832,6 +998,22 @@ p {
     bottom: -250px;
   }
 }
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .footer__top {
   min-height: 872px;
   background-color: #1C1C33;
@@ -932,6 +1114,11 @@ p {
   .footer__logo {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 600px) {
+  .footer__nav-container a, .footer__nav_name {
+    font-size: 24px;
   }
 }
 @media (max-width: 450px) {
