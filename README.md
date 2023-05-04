@@ -1,2 +1,2 @@
 # Skillz
-Simple Landing of online-platform, responsive design up to 23 pixels
+Responsive landing for a company that runs an online training platform.
